@@ -8,6 +8,7 @@
 int main(void)
 {
 int n;
+
 if (n > 5)
 {
 	printf("Last string of %d is %d and is greater than 5", n, n);
