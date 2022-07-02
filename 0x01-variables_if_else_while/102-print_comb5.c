@@ -11,9 +11,10 @@ int main(void)
 	{
 
 		int ii;
+
 		for (ii = var + 1; ii < 100; ii++)
 		{
-
+	
 			putchar((var / 10) + '0');
 			putchar((var % 10) + '0');
 			putchar(' ');
