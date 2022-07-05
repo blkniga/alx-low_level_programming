@@ -1,10 +1,5 @@
 #include "main.h"
-
-/**
- * main - prints the alphabet, in lowercase, followed by a new line
- *
- * Return: 0
- */
+/** Prints small letter */
 void print_alphabet(void)
 {
 	char letter = 'a';
