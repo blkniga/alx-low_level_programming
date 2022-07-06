@@ -7,8 +7,10 @@
  *
  * Return: 0 if successful
  */
-int _abs(int)
+int _abs(int value)
 {
-	return (abs(int));
+	int result;
+	result = abs(value);
+	return (result);
 	return (0);
 }
