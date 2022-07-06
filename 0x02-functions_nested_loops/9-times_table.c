@@ -6,12 +6,18 @@
  */
 void times_table(void)
 {
-	for (int i = 0; i <= 9; i++)
+	int i = 0;
+
+	while (i <= 9)
 	{
-		for (int j = 0; j <= 9; j++)
+		int j = 0;
+
+		while (j <= 9)
 		{
 			_putchar(i);
 			_putchar(j);
+			j++;
 		}
+		i++;
 	}
 }
