@@ -19,11 +19,11 @@ void jack_bauer(void)
 			{
 				for (m = 0; m <= 9; m++)
 				{
-					_putchar(H);
-					_putchar(h);
+					_putchar(H + '0');
+					_putchar(h + '0');
 					_putchar(':');
-					_putchar(M);
-					_putchar(m);
+					_putchar(M + '0');
+					_putchar(m + '0');
 					_putchar('\n');
 				}
 			}
