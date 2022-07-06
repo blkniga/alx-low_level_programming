@@ -14,11 +14,9 @@ int _islower(int c)
 		if (c == character)
 		{
 			return (1);
-			break;
 		} else
 		{
 			return (0);
-			break;
 		}
 		character++;
 	}
