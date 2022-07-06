@@ -15,7 +15,7 @@ int _isalpha(int c)
 	{
 		if (c == lower || c == upper)
 		{
-			return ();
+			return (0);
 		} else if (c != lower || c != upper)
 		{
 			return (0);
