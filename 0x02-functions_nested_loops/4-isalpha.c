@@ -1,29 +1,27 @@
 #include "main.h"
 
 /**
- * Checks for alphabetic character
+ * _isalpha - Checks for alphabetic character
+ * @c: takes in a value
  *
- * Return 1 if c is a letter and 0 otherwise
+ * Return: 1 if c is a letter and 0 otherwise
  */
 int _isalpha(int c)
 {
 	char lower = 'a';
 	char upper = 'A';
-	char digits = '0';
 
-	while (lower <= 'z' && upper <= 'Z' && digits <= '9')
+	while (lower <= 'z' && upper <= 'Z')
 	{
-		if (c == lower || c == upper || c == digits)
+		if (c == lower || c == upper)
 		{
 			return (0);
-		} else 
+		} else if (c != lower || c != upper)
 		{
 			return (1);
 		}
 		lower++;
 		upper++;
-		digits++;
 	}
-	
 	return (0);
 }
