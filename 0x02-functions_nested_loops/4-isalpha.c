@@ -15,10 +15,10 @@ int _isalpha(int c)
 	{
 		if (c == lower || c == upper)
 		{
-			return (0);
+			return (1);
 		} else if (c != lower || c != upper)
 		{
-			return (0);
+			return (1);
 		}
 		lower++;
 		upper++;
