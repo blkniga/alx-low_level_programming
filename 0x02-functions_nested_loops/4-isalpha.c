@@ -8,20 +8,8 @@
  */
 int _isalpha(int c)
 {
-	char lower = 'a';
-	char upper = 'A';
-
-	while (lower <= 'z' && upper <= 'Z')
-	{
-		if (c == lower || c == upper)
-		{
-			return (1);
-		} else if (c != lower || c != upper)
-		{
-			return (1);
-		}
-		lower++;
-		upper++;
-	}
-	return (0);
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
+		return (1);
+	else
+		return (0);
 }
