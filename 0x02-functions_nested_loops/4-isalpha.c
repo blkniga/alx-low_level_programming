@@ -15,10 +15,10 @@ int _isalpha(int c)
 	{
 		if (c == lower || c == upper || c == digits)
 		{
-			return (1);
+			return (0);
 		} else 
 		{
-			return (0);
+			return (1);
 		}
 		lower++;
 		upper++;
@@ -27,6 +27,3 @@ int _isalpha(int c)
 	
 	return (0);
 }
-
-
-
