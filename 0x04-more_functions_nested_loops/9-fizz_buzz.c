@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * fizz_buzz - Prints numbers 1-100 but multiples of 3 print Fizz,
@@ -27,7 +28,10 @@ int fizz_buzz(void)
 		{
 			printf("%d", i);
 		}
-		printf(" ");
+
+		if (i != 100)
+			printf(" ");
 	}
 	printf("\n");
+	return (0);
 }
