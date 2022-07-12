@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- *
  * _strcpy - Copies the string pointed to by src
  * @dest: The buffer pointed to dest
- * @src: The string 
+ * @src: The string
  *
  * Return: 0
  */
