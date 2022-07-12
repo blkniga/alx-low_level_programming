@@ -8,9 +8,13 @@
  */
 void print_rev(char *s)
 {
-	int len = strlen(s);
-
-	char statement[len] = *s;
+	int len;
+	
+	len = strlen(s);
+	
+	char statement[len];
+	
+	statment = *s;
 
 	int i;
 
