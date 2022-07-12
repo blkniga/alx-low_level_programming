@@ -8,12 +8,12 @@
  */
 void print_rev(char *s)
 {
-	int len = strlen(*s);
+	int len = strlen(s);
 	char state[len] = *s;
 	int i;
 
 	for (i = len; i >= 0; i--)
 	{
-		_putchar(state[i])
+		_putchar(state[i]);
 	}
 }
