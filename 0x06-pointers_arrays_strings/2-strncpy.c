@@ -5,7 +5,7 @@
  * @dest: Destination parameter
  * @src: Source parameter
  * @n: Number of bytes of src that should be copied to dest
- * 
+ *
  * Return: dest
  */
 char *_strncpy(char *dest, char *src, int n)
