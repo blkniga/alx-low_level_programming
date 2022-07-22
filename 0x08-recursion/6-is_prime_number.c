@@ -5,7 +5,7 @@
  * @f: Factor check
  * @p: Possible prime number
  *
- * Return: 1 if prime, 0 otherwise 
+ * Return: 1 if prime, 0 otherwise
  */
 int prime_check(int f, int p)
 {
@@ -21,7 +21,7 @@ int prime_check(int f, int p)
  * is_prime_number - States if number is prime
  * @n: Number to check
  *
- * Return: 1 if prime, 0 otherwise 
+ * Return: 1 if prime, 0 otherwise
  */
 int is_prime_number(int n)
 {
